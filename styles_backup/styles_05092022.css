@@ -1,0 +1,116 @@
+:root {
+    font-size: 16px;
+    font-family: sans-serif;
+    --text-primary: #c7c7c7;
+    --text-secondary: #a7afb8;
+    --bg-primary: #2d2d2d;
+    --bg-secondary: #858a90;
+    --highlight: #9cb7ba;
+}
+
+body {
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+nav {  
+    box-sizing: border-box;
+    border: none;
+    
+    
+}
+
+.logo {
+    flex: .8 1 0;
+    padding-left: 24px; 
+}
+.nav-bar {
+    width: 100%;
+    display: flex;
+    flex: 2.5 1 0;
+    justify-content: space-around;
+    padding-right: 1rem;
+}
+
+.social-bar {
+    width: 100%;
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    gap: 10px;
+    
+}
+
+.header {
+    width: 100%;
+    background-image: url(img/CHIPPIES_HEADER_2B.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 200px 0 200px 0;
+}
+
+.no-header-item {
+    flex: 1 1 0;
+}
+
+.header-item {
+    flex: 1 1 0;
+    padding: 24px;
+    margin: 24px;
+    border-radius: 25px;
+    background-color: rgba(165, 168, 165, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.header-logo {
+    font-size: 36px;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.roadmap {
+    padding: 36px;
+
+}
+.roadmap-main {
+    position: relative;
+    padding: 36px;
+    
+
+    
+}
+
+.roadmap-item {
+    
+    padding-left: 36px;
+    margin-bottom: 1rem;
+    
+}
+
+.roadmap-img {
+    width: 24px;
+    height: 24px;
+    padding: 12px;
+    background-color: #fff;
+    border: none;
+    border-radius: 100%;
+    position: absolute;
+    left: -12px;
+}
+
+
+
+.roadmap-item-b {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    letter-spacing: 3px;
+}
+
+
